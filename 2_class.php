@@ -17,6 +17,6 @@ class classChild extends ClassName{
 }
 
 $show = new classChild("imran");
-
+$show->message();
 
 ?>
