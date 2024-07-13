@@ -3,22 +3,24 @@
 
 for ($i = 10; $i <= 50; $i++) {
   echo $i * 1 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 2 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 3 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 4 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 5 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 6 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 7 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 8 . " ";
-  echo "\n";
+  echo " ";
   echo $i * 9 . " ";
-  echo "\n";
-  echo $i * 10 . " ";
+  echo " ";
+  echo $i * 10 . "\n";
 }
+
+?>
