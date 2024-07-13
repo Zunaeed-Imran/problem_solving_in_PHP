@@ -12,4 +12,10 @@ class Database{
 $connect = new Database();
 $connect->connect();
 
+if($connect){
+  echo "databse connect";
+}else{
+  echo "Not Connected to database";
+}
+
 ?>
