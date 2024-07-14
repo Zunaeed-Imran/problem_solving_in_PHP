@@ -6,10 +6,10 @@
   <title>Class Practice</title>
 </head>
 <body>
-  <form action="insert.php" method="post">
-    <input type="text" name="user">
-    <input type="number" name="age">
-    <input type="number" name="mobile">
+  <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
+    <input type="text" placeholder="Name" name="user"><br>
+    <input type="number" placeholder="Age" name="age"><br>
+    <input type="number" placeholder="Mobile" name="mobile"><br>
     <button type="submit">Submit</button>
   </form>
 </body>
