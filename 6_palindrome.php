@@ -3,11 +3,18 @@
 
 // defination: A palindrome number is a number that remains the same when its digits are reversed.
 
-$palinNum = 55;
+$num = 55;
 
-$expo = explode("",$palinNum);
-$rev = implode("",$expo);
+$split = str_split($num);
+$rev = array_reverse($split);
+$palNum = implode($rev);
 
-$joine = join($rev);
+// echo $palNum;
+
+if($palNum == $num){
+  echo "{$num} is Palindrome Number";
+}else{
+  echo "{$num} is Not a palindrome Number";
+}
 
 ?>
