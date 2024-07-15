@@ -1,8 +1,15 @@
 <?php
 // Question: sum of digits
 
-$num = 120;
+$number = 160;
+$splNum = str_split($number);
+$sum = 0;
 
-strlen($num);
+foreach($splNum as $item){
+    $sum+= $item;
+}
 
+
+echo $sum;
 ?>
+
