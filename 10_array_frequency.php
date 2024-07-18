@@ -6,6 +6,8 @@
 //  1 appears 1 time
 //  2 appears 2 times
 
+// we need `array_intersect` to compare array.
+
 $arr = array(1, 2, 1, 3, 4);
 
 foreach($arr as $item => $a){
