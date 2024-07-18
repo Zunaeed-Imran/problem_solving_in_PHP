@@ -8,8 +8,10 @@
 
 $arr = array(1, 2, 1, 3, 4);
 
-for($i = 0; $i < $arr; $i++){
-  echo $i . "\n";
+foreach($arr as $item => $a){
+  if($item == $a){
+    echo "";
+  }
 }
 
 ?>
