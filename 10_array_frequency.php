@@ -8,12 +8,11 @@
 
 // we need `array_intersect` to compare array.
 
-$arr = array(1, 2, 1, 3, 4);
+$arr1 = array(1, 2, 3, 4);
+$arr2 = array(3, 4, 5, 6);
 
-foreach($arr as $item => $a){
-  if($item == $a){
-    echo "";
-  }
+$result = array_intersect($arr1, $arr2);
+
+foreach ($result as $item) {
+  echo "\n" . $item . " are two times in the array. ";
 }
-
-?>
