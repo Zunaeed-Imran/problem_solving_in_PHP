@@ -19,5 +19,7 @@ for ($i = 0; $i < count($arr1); $i++) {
 }
 
 foreach ($arr3 as $item) {
-  echo $item . " ";
+  echo " {$item} are two times in the array " . "\n";
 }
+
+?>
