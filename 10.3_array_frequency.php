@@ -12,6 +12,7 @@ for ($i = 0; $i < count($arr1); $i++) {
   for ($j = 0; $j < count($arr2); $j++) {
 
     if ($arr1[$i] == $arr2[$j]) {
+      // array_push($arr3, $arr1[$i]);
       $arr3[] = $arr1["$i"];
     }
   }
