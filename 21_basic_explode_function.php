@@ -1,5 +1,5 @@
 <?php
-// basic example of explode function to clear about the explode function.
+// topic: basic example of explode function to clear about the explode function.
 
 // explode function make string in to array.
 // explode function work on string not number.
