@@ -1,7 +1,7 @@
 <?php
 //  Question: Counting frequencies of three array elements.
 
-// we don't use array_push in this example
+//  we don't use array_push in this example
 
 $arr1 = array(1, 2, 3, 4);
 $arr2 = array(3, 4, 5, 6);
