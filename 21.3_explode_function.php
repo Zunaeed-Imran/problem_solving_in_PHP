@@ -1,6 +1,6 @@
 <?php
 // topic: explode funcion using list variable.
-//  we are gonna use list.
+//  we are gonna use list function.
 // we don't use foreach loop this time.
 
 $data = "foo:*:1000:1080::/home/foo:/bin/sh";
