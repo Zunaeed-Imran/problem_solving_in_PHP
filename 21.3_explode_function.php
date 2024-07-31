@@ -17,6 +17,6 @@ echo "home: {$home}" . "\n";
 echo "shell: {$shell}" . "\n";
 
 
-//  we use :: for $gecos because we don't want vslue in that variable
+//  we use :: for $gecos because we don't want value in that variable
 
 ?>
