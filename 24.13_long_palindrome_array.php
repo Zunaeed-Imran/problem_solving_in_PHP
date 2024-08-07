@@ -5,7 +5,6 @@
 $arr = array(121, 232, 525, 636, 526);
 
 
-
 foreach($arr as $item){
   $item; 
   $spl = str_split($item);
@@ -14,7 +13,7 @@ foreach($arr as $item){
 
   if($joint == $item){
     // echo $item . "\n";
-    // sort();
+    echo sort($item[0]);
   }
 }
 
