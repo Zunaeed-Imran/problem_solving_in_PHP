@@ -7,10 +7,17 @@
 //                        than add those value.
 
 $arr = array(1, -2, 4, -3);
+$power = 0;
+$sum = 0;
 
-if($arr <= 1){
-  print_r(pow($arr, 2));
+foreach($arr as $item){
+  if($item > 0){
+    // echo $item. "\n";
+    $power = pow($item, 2);
+    $sum+= $power;
+  }
 }
 
+echo $sum;
 
 ?>
