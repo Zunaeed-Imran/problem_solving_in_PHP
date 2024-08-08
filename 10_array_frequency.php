@@ -1,5 +1,5 @@
 <?php
-//  Question: Counting frequencies of array elements.
+//  Question: Counting frequencies of array elements./ we use array_intersect function.
 
 //  means determining how many times each unique element appears in an array.
 //  $array = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4];

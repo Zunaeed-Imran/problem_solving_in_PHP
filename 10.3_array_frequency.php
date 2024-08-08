@@ -1,5 +1,5 @@
 <?php
-//  Question: Counting frequencies of array elements.
+//  Question: Counting frequencies of array elements./ using nested loop.
 
 // we don't use array_push in this example
 

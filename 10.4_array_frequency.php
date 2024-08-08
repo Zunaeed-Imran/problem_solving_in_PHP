@@ -1,5 +1,5 @@
 <?php
-//  Question: Counting frequencies of three array elements.
+//  Question: Counting frequencies of three array elements. /but not workout
 
 //  we don't use array_push in this example
 
