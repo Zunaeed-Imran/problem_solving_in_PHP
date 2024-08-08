@@ -13,8 +13,18 @@ foreach($arr as $item){
 
   if($joint == $item){
     // echo $item . "\n";
-    echo sort($item[0]);
+    $array = str_split($item);
+    
+    rsort($array);
+    // // another loop
+    // foreach ($array as $i) {
+    //   echo $i . "\n";
+    // }
+
+    echo $array[0];
+
   }
 }
+
 
 ?>
