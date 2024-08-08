@@ -1,5 +1,5 @@
 <?php
-// question: Longest palindrome in an array.
+// question: Longest palindrome in an array./ not done the task.
 // array programming.
 
 $arr = array(121, 232, 525, 636, 526);
