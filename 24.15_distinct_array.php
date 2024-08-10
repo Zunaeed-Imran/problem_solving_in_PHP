@@ -10,15 +10,17 @@
 $arr = array(1, 2, 2, 3, 4, 4, 4, 5);
 $arr2 = array();
 
-for($i = 0; $i < count($arr); $i++){
-
-  for($j = 0; $j < count($arr); $j++){
-
-    if($arr[$i] == $arr[$j]){
-      array_push($arr2, $arr[$i], $arr[$j]);
-       echo $arr[$i];
-    }
+foreach($arr as $item){
+  if(in_array($item, $arr)){
+    // echo " match ";
+    $arr2 = $arr[$item] - $item;
+  }else{
+    echo " not match ";
   }
+}
+
+foreach($arr2 as $ii){
+  echo $ii . " ";
 }
 
 ?>
