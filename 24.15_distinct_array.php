@@ -7,13 +7,23 @@
 // The distinct (unique) elements are: 1, 2, 3, 4, 5
 // The count of these distinct elements is 5.
 
-$arr = array(1, 2, 2, 3, 4, 4, 4, 5);
-
+$arr = array(1, 2, 2, 3, 4, 4, 4, 5, 9, 5, 8);
+$sum = 0;
+$rrr = 0;
 // we take array unique to only take the unique value.
 $arr2 = array_unique($arr);
 
 foreach ($arr2 as $item) {
-  echo $item . " ";
+  $rrr = strlen($item);
+
+  $exp = explode(",", $rrr);
+
+  for ($i = 0; $i < count($exp); $i++) {
+    $sum += $exp[$i];
+  }
 }
+
+echo $sum;
+
 
 ?>
