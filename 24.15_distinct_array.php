@@ -13,11 +13,14 @@ $rrr = 0;
 // we take array unique to only take the unique value.
 $arr2 = array_unique($arr);
 
+// we use strlen to see the length of digit.
 foreach ($arr2 as $item) {
   $rrr = strlen($item);
 
+  // we use explode function to make it array.
   $exp = explode(",", $rrr);
 
+  // use this loop to count the length of digits.
   for ($i = 0; $i < count($exp); $i++) {
     $sum += $exp[$i];
   }
