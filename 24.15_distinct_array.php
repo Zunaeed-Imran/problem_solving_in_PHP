@@ -10,7 +10,8 @@
 $arr = array(1, 2, 2, 3, 4, 4, 4, 5, 9, 5, 8);
 $sum = 0;
 $rrr = 0;
-// we take array unique to only take the unique value.
+
+// we take array unique to Removes duplicate values from an array
 $arr2 = array_unique($arr);
 
 // we use strlen to see the length of digit.
