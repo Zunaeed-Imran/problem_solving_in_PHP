@@ -1,5 +1,5 @@
 <?php
-// question: Remove duplicate elements in an array / not done yet.
+// question: Remove duplicate elements in an array.
 // array programming.
 
 // Example
@@ -10,7 +10,12 @@
 // The elements 9 and 6 each appear only once.
 // If you remove the duplicates, you would end up with [5, 7, 9, 6]. Now, each element appears only once.
 
+$arr = array(5, 7, 5, 9, 7, 6);
 
+$result = array_unique($arr);
 
+foreach($result as $item){
+  echo $item . " ";
+}
 
 ?>
