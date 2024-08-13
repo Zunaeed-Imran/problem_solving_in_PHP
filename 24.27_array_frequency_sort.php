@@ -1,5 +1,5 @@
 <?php
-// question: Sorting elements of an array by frequency. / not done yet.
+// question: Sorting elements of an array by frequency.
 // array programming.
 
 
