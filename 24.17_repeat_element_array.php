@@ -14,11 +14,11 @@ $arr = array(3, 7, 2, 3, 8, 2, 9);
 
 $arr2 = array_unique($arr);
 
-$result = array_diff($arr, $arr2);
+$result = array_intersect($arr, $arr2);
 
-var_dump($result);
+$result2 = array_unique($result);
 
-foreach($result as $item){
+foreach($result2 as $item){
   echo $item . " ";
 }
 
