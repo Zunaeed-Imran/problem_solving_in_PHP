@@ -29,20 +29,10 @@ foreach($count as $item => $times){
   // echo $item . " = " . $times . ", ";
   if($times%2!= 0){
     $sum+= $item;
-
   }
 }
 
-echo $sum;
-
-// for($i = 0; $i < count($arr); $i++){
-//   // echo $arr[$i] . " ";
-//   if($arr[$i]%2 == 0){
-//     echo "{$arr[$i]} are even \n" ;
-//   }elseif($arr[$i]%2 != 0){
-//     echo "{$arr[$i]} are Odd \n";
-//   }
-// }
+echo "Sum of all Odd frequency elements in the array is: {$sum}";
 
 
 ?>
