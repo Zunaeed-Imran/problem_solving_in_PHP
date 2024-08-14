@@ -26,7 +26,7 @@ $sum = 0;
 sort($arr1);
 rsort($arr2);
 
-// we use array_combine to make scalar array.
+// we use array_combine to make scalar array, keys and another for its values in combine array.
 $combine = array_combine($arr1, $arr2);
 
 foreach($combine as $item1 => $item2){
