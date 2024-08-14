@@ -21,6 +21,7 @@ $arr = array(10, 10, 10, 20, 30, 30, 30, 20, 60, 60);
 $sum = 0;
 
 // we take array count to see how many times one elements repeated in a array.
+// arraycount value input single array, and out-put associative array.
 $count = array_count_values($arr);
 
 foreach ($count as $item => $times) {

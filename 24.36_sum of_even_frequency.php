@@ -15,6 +15,7 @@
 $arr = array(10, 10, 10, 20, 30, 50, 30, 30, 20, 50);
 $sum = 0;
 
+// array count value input single array, and output associative array.
 $count = array_count_values($arr);
 
 foreach($count as $item => $times){
