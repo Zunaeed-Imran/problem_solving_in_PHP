@@ -1,5 +1,5 @@
 <?php
-// question: Arrays are disjoint or not / not done yet.
+// question: Arrays are disjoint or not.
 // array programming.
 
 // Example: Suppose you have the following two arrays:
@@ -12,8 +12,17 @@
 // In this case, both arrays share the element 3, so they are not disjoint.
 
 $arr1 = array(1, 2, 3, 4, 5);
-$arr2 = array(6, 7, 8, 9, 10);
+$arr2 = array(6, 7, 8, 4, 10);
 
+$disjoint = array_combine($arr1, $arr2);
 
+foreach ($disjoint as $key => $value) {
+  // echo "{$key} = {$value} \n";
+  if($key != $value){
+    echo "This array are disjoint \n";
+  }else{
+    echo "This array are Not disjoint \n";
+  }
+}
 
 ?>
