@@ -25,6 +25,7 @@ $sum = 0;
 sort($arr1);
 rsort($arr2); 
 
+// Merges the elements of one or more arrays together
 $combine = array_combine($arr1, $arr2);
 
 foreach ($combine as $item1 => $item2) {

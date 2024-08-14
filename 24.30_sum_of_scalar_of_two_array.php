@@ -12,6 +12,7 @@ $a = array(1, 3, 5);
 $b = array(2, 4, 1);
 
 //  we use array_combine to make scalar array.
+// Merges the elements of one or more arrays together
 $c = array_combine($a, $b);
 $r = 0;
 $sum = 0;
