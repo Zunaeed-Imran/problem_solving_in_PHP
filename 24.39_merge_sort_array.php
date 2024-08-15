@@ -1,5 +1,5 @@
 <?php
-// question: Merge two sorted arrays
+// question: Merge two sorted array.
 // array programming.
 
 // Example:
@@ -10,15 +10,19 @@
 // The goal is to merge them into one sorted array.
 // The result is [1, 2, 3, 4, 5, 6]
 
+
 $arr1 = array(1, 3, 5);
 $arr2 = array(2, 4, 6);
 
-$combine = array_combine($arr1, $arr2);
+// merge teo aray.
+$merg = array_merge_recursive($arr1, $arr2);
 
-// print_r($combine);
+// sotring the merge array.
+sort($merg);
 
-foreach ($combine as $key => $value) {
-  echo "{$key} {$value} \n";
+foreach($merg as $item){
+  echo "{$item} \n";
 }
+
 
 ?>
