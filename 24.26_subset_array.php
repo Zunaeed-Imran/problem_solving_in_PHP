@@ -1,5 +1,5 @@
 <?php
-// question: Array is a subset of another array or not / not done yet.
+// question: Array is a subset of another array or not.
 // array programming.
 
 
@@ -18,17 +18,13 @@
 $arr1 = array(2, 4, 6);
 $arr2 = array(1, 2, 3, 4, 5, 6, 7, 8);
 
-$result = array_diff_assoc($arr1, $arr2);
+// first we different the array, to see have the value in the other array or not.
+$result = array_diff($arr1, $arr2);
 
-if($result == $arr1){
-  echo "array is subset of another array";
+if($result == true){
+  echo "Not Subset of anotehr array.";
 }else{
-  echo "array is not subset of another array";
-}
-
-
-foreach ($result as $item) {
-  echo $item . " ";
+  echo "yes it is subset of another array.";
 }
 
 
