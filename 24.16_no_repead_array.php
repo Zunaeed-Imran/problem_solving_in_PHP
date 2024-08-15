@@ -1,5 +1,5 @@
 <?php
-// question: Non-repeating elements of an array/ not done yet.
+// question: Non-repeating elements of an array.
 // array programming.
 
 
@@ -14,16 +14,19 @@
 
 $arr = array(4, 5, 6, 4, 7, 8, 5);
 
-$unique = array_unique($arr);
+// count the array value how many time's each element repeated. 
+// this function return associative array.
+$count = array_count_values($arr);
 
-$diff = array_intersect($arr, $unique);
 
-$result = array_unique($diff);
+echo "Non-repeating elements are \n";
 
-foreach($result as $item){
-  echo $item . " ";
+foreach($count as $item => $times){
+
+  if($times <= 1){
+    echo "{$item} = {$times} times \n";
+  }
 }
-
 
 
 ?>
