@@ -25,6 +25,7 @@
 
 $arr = array(1, -2, 3, -4, 5, -6);
 
+// natsort($arr);
 ksort($arr);
 
 foreach($arr as $item){
