@@ -1,5 +1,5 @@
 <?php
-// question: Repeating elements in an array / not done yet.
+// question: Repeating elements in an array.
 // array programming.
 
 // Example
@@ -12,14 +12,15 @@
 
 $arr = array(3, 7, 2, 3, 8, 2, 9);
 
-$arr2 = array_unique($arr);
 
-$result = array_intersect($arr, $arr2);
+$result = array_count_values($arr);
 
-$result2 = array_unique($result);
+// we give condation witch value more than repeated two times.
+foreach($result as $item => $times){
+  if($times > 1){
+    echo " {$item} = {$times} times \n";
+  }
 
-foreach($result2 as $item){
-  echo $item . " ";
 }
 
 
