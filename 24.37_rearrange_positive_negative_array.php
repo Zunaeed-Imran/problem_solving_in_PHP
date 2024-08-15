@@ -1,5 +1,5 @@
 <?php
-// question: Rearrange positive and negative numbers in an array. / not done yet.
+// question: Rearrange positive and negative numbers in an array.
 // array programming.
 
 
@@ -23,7 +23,13 @@
 
 // In this case, the output maintains an alternating pattern between positive and negative numbers.
 
-$arr = array(1, 2, 3, 4, 5, 6);
+$arr = array(1, -2, 3, -4, 5, -6);
+
+ksort($arr);
+
+foreach($arr as $item){
+  echo "{$item} \n";
+}
 
 
 ?>
