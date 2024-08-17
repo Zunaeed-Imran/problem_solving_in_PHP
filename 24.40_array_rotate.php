@@ -1,5 +1,5 @@
 <?php
-// question: Circular rotation of an array by K positions
+// question: Circular rotation of an array by K positions / not done yet. 
 // array programming.
 
 
@@ -14,8 +14,13 @@ $arr = array(1, 2, 3, 4, 5);
 $k = 0;
 
 for($i = 0; $i < count($arr); $i++){
-  
+  // echo $arr[$i] . " ";
+  $k = $arr[2];
 }
 
+// echo $k;
+for ($i=0; $i < $k; $i++) { 
+  echo $i . " "; 
+}
 
 ?>
