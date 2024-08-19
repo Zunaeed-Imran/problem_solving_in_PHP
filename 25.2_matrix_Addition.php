@@ -17,7 +17,6 @@
 
 
 
-
 $matrix_A = array(
   array(1, 2, 3),
   array(4, 5, 6)
@@ -28,16 +27,13 @@ $matrix_B = array(
   array(10, 11, 12)
 );
 
-$sum1 = 0;
-$sum2 = 0;
+$sum1 = $matrix_A[0][0] + $matrix_B[0][0];
+$sum2 = $matrix_A[0][1] + $matrix_B[0][1];
+$sum3 = $matrix_A[0][2] + $matrix_B[0][2];
+$sum4 = $matrix_A[1][0] + $matrix_B[1][0];
+$sum5 = $matrix_A[1][1] + $matrix_B[1][1];
+$sum6 = $matrix_A[1][2] + $matrix_B[1][2];
 
-for ($i = 0; $i < $matrix_A[0]; $i++) { 
-  
-  for ($j = 0; $j < $matrix_A[1]; $j++) { 
-    echo "{$i} \n";
-  }
-}
-
-
+echo " {$sum1} {$sum2} {$sum3} \n {$sum4} {$sum5} {$sum6}";
 
 ?>
