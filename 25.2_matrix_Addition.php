@@ -1,8 +1,8 @@
 <?php
 // question: Matrix operations (Addition)
-// array programming.
+// 2D array programming.
 
-
+// Example:
 // Matrix A:
 // [1, 2, 3]
 // [4, 5, 6]
