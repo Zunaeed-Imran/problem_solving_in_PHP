@@ -1,5 +1,5 @@
 <?php
-// question: The maximum element in a column. / not done yet
+// question: The maximum element in a column.
 // 2D array programming.
 
 
