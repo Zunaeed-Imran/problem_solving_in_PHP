@@ -1,5 +1,5 @@
 <?php
-// question: The maximum element in a row. / not done yet.
+// question: The maximum element in a row.
 // 2D array programming.
 
 // Example: 
@@ -13,14 +13,15 @@
 // [9, 6, 8]
 
 
-$arr = array(
-  max(array(1, 3, 7)),
-  max(array(4, 2, 5)),
-  max(array(9, 6, 8))
-);
+$arr = max(array(
+  array(1, 3, 7),
+  array(4, 2, 5),
+  array(9, 6, 8)
+));
 
-print_r($arr);
-
+foreach($arr as $max_row){
+  echo $max_row . ", ";
+}
 
 
 ?>

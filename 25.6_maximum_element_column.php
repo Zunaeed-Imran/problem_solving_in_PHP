@@ -24,7 +24,7 @@ $arr = array(
 );
 
 foreach($arr as $max_col){
-  echo $max_col . ", ";
+  echo $max_col . "\n";
 }
 
 
