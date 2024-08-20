@@ -1,5 +1,5 @@
 <?php
-// question: Matrix operations Multiplication. / not one yet.
+// question: Matrix operations Multiplication.
 // 2D array programming.
 
 
@@ -31,7 +31,12 @@ $arr2 = array(
   array(7, 8)
 );
 
+$multi1 = $arr1[0][0] * $arr2[0][0] + $arr1[0][1] * $arr2[1][0];
+$multi2 = $arr1[0][0] * $arr2[0][1] + $arr1[0][1] * $arr2[1][1];
+$multi3 = $arr1[1][0] * $arr2[0][0] + $arr1[1][1] * $arr2[1][0];
+$multi4 = $arr1[1][0] * $arr2[0][1] + $arr1[1][1] * $arr2[1][1];
 
 
+echo " {$multi1}, {$multi2} \n {$multi3}, {$multi4}";
 
 ?>
