@@ -26,17 +26,16 @@ $arr = array(
   array(13, 14, 15, 16)
 );
 
-$top_left = $arr[0][0] . " " . $arr[0][1] . " " . $arr[0][2] . " " . $arr[0][3];
-$last_column = $arr[0][0] + $arr[0][0] + $arr[0][0];
-$across_bottom = $arr[0][0] + $arr[0][0] + $arr[0][0];
-$move_up = $arr[0][0] + $arr[0][0];
-$move_right = $arr[0][0] + $arr[0][0];
-$move_down = $arr[0][0];
-$move_left = $arr[0][0];
+$top_left = $arr[0][0] + $arr[0][1] + $arr[0][2] + $arr[0][3];
+$last_column = $arr[1][3] + $arr[2][3] + $arr[3][3];
+$across_bottom = $arr[3][2] + $arr[3][1] + $arr[3][0];
+$move_up = $arr[2][0] + $arr[1][0];
+$move_right = $arr[1][1] + $arr[1][2];
+$move_down = $arr[2][2];
+$move_left = $arr[2][1];
 
-echo $top_left;
+$sum_aspiral = $top_left + $last_column+ $across_bottom + $move_up + $move_right + $move_down + $move_left;
 
-
-
+echo "sum of a spiral form is: {$sum_aspiral}";
 
 ?>
