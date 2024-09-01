@@ -1,5 +1,5 @@
 <?php
-// Question: sum of digits
+// Question: sum of digits.  using foreach.
 
 $number = 160;
 $splNum = str_split($number);
