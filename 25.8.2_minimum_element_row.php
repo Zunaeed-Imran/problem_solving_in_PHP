@@ -30,4 +30,8 @@ foreach ($arr as $item) {
   }
 }
 
-echo $big;
+// take foreach loop for showing the array result
+
+foreach ($big as $min) {
+  echo $min . " ";
+}
