@@ -24,6 +24,17 @@ $sum1 = 0;
 $sum2 = 0;
 $sum3 = 0;
 
+foreach($arr[0] as $item){
+  $sum1 = $item;
+  echo $sum1 . " ";
+}
+foreach($arr[1] as $item){
+
+}
+foreach($arr[2] as $item){
+
+}
+
 
 
 ?>
