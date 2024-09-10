@@ -22,12 +22,9 @@ $arr =  array(
   array(9, 6, 8)
 );
 
-
-
 $small1 = $arr[0][0];
 $small2 = $arr[1][0];
 $small3 = $arr[2][0];
-
 
 foreach ($arr[0] as $item) {
   if($item < $small1){
@@ -44,10 +41,8 @@ foreach($arr[2] as $item){
   $small3 = $item;
 }
 
-
 echo $small1 . "\n";
 echo $small2 . "\n";
 echo $small3 . "\n";
-
 
 ?>
