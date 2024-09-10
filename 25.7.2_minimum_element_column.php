@@ -24,9 +24,9 @@ $arr =  array(
 
 
 
-$small1 = $arr[0];
-$small2 = $arr[1];
-$small3 = $arr[2];
+$small1 = $arr[0][0];
+$small2 = $arr[1][0];
+$small3 = $arr[2][0];
 
 
 foreach ($arr[0] as $item) {
@@ -40,6 +40,7 @@ foreach($arr[1] as $item){
   }
 }
 foreach($arr[2] as $item){
+  if($item < $small3)
   $small3 = $item;
 }
 
