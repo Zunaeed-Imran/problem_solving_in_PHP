@@ -24,19 +24,6 @@ $sum1 = 0;
 $sum2 = 0;
 $sum3 = 0;
 
-foreach($arr[0] as $item){
-  $sum1+=$item;
-}
-foreach($arr[1] as $item){
-  $sum2+=$item;
-}
-foreach($arr[2] as $item){
-  $sum3+=$item;
-}
-
-echo $sum1 . " ";
-echo $sum2 . " ";
-echo $sum3 . " ";
 
 
 ?>

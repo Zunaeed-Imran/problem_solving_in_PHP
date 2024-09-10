@@ -1,5 +1,5 @@
 <?php
-// question: 
+// question: Sum of each row of a matrix, without using in-built function.
 // 2d array programming.
 
 // example: 
