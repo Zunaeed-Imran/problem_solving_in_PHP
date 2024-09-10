@@ -17,7 +17,7 @@
 $arr = array(
   array_sum(array(1, 2, 3)),
   array_sum(array(4, 5, 6)),
-   array_sum(array(7, 8, 9))
+  array_sum(array(7, 8, 9))
 );
 
 
