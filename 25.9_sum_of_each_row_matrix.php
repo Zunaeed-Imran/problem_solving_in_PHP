@@ -20,7 +20,6 @@ $arr = array(
   array_sum(array(7, 8, 9))
 );
 
-
 foreach($arr as $row => $item){
   echo "Sum of Row: {$item} \n";
 }
