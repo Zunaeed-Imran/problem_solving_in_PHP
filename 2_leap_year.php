@@ -1,5 +1,6 @@
 <?php
 // question: find the yeap year.
+// formula: if the numner devided to 4 and not devided to 100 or devide by 400.
 
 $year = 2012;
 
