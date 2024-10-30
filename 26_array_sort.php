@@ -1,5 +1,5 @@
 <?php
-// question: sorting a array without using any in_built function.
+// question: sorting a array without using any in_built function. (not done yet)
 // array programming.
 
 $arr = array(45, 29, 69, 12, 10, 5, 14);
